@@ -1,7 +1,6 @@
 # know what is Pigeonhole_principle
 # https://www.youtube.com/watch?v=IeTLZPNIPJQ
 
-
 def pigeonhole_sort(a):
 
     # (number of pigeonholes we need)
@@ -23,7 +22,6 @@ def pigeonhole_sort(a):
             holes[count] -= 1
             a[i] = count + my_min
             i += 1
-
 
 a = [10, 3, 2, 7, 4, 6, 8]
 
